@@ -5,8 +5,5 @@ body {
 	background-image: url("images/forests.jpg");
 	font-size: 36px;
 	color: firebrick;
-	
-}
-div.inventory {
-	text-align: left;
+	text-align: center;
 }
