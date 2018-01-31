@@ -1,4 +1,7 @@
+
 // JavaScript Document
+
+}
 
 window.onload = function() {
 	document.getElementById("startBtn").addEventListener("click", function() {
@@ -10,6 +13,8 @@ window.onload = function() {
 function start_game() {
 	// hide the start button
 	document.getElementById("startBtn").style.visibility = "hidden";
+	// show the buttons
+	
 	// load the first scene
 	updateScene("s1");
 }
