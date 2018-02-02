@@ -24,7 +24,7 @@ function start_game() {
 function updateScene(s) {
 	switch(s) {
 		case "s1":
-			document.getElementById("story").innerHTML = "<p>You live in a small village in the forest.</p><p>After walking through the wood, you find a deer drinking water.</p>";
+			document.getElementById("story").innerHTML = "<p>You live in a small village in the forest.</p><p> you have been sent to hunt.</p><p>After walking through the wood, you find a deer drinking water.</p><p> kill it or let it live and look for smaller game</p>";
 			
 			break;
 		case "s2":
