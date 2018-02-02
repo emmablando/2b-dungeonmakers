@@ -12,7 +12,9 @@ window.onload = function() {
 
 }
 function run_away() {
-			// hide deer button
+			// hide fight button
+			document.getElementById("fight").style.display = "none";
+			// hide deer 
 			document.getElementById("deer").style.display = "none";
 			//grow storyline
 			document.getElementById("story").innerHTML = "<p>Suddenly, there is a roar, you mutter swear words under your breath.</p><p>It's a dragon heading right towards the village!</p>";
