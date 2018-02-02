@@ -1,7 +1,6 @@
 
 // JavaScript Document
 
-}
 
 window.onload = function() {
 	document.getElementById("startBtn").addEventListener("click", function() {
@@ -22,7 +21,7 @@ function start_game() {
 function updateScene(s) {
 	switch(s) {
 		case "s1":
-			document.getElementById("story").innerHTML = "<p>You live in a small village in the forest.</p><p>After walking through the wood, you find a bear drinking water.</p>";
+			document.getElementById("story").innerHTML = "<p>You live in a small village in the forest.</p><p>After walking through the wood, you find a deer drinking water.</p>";
 			// button1
 			document.getElementById("fight").style.visibility = "visible";
 			document.getElementById("run").style.visibility = "visible";
