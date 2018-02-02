@@ -17,6 +17,8 @@ function start_game() {
 			document.getElementById("fight").style.display = "inline";
 			// button2
 			document.getElementById("run").style.display = "inline";
+			// showing deer
+			document.getElementById("deer").style.display = "inline";
 	// load the first scene
 	updateScene("s1");
 }
