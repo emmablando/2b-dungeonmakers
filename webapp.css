@@ -5,9 +5,14 @@ body {
 	background-image: url("images/forests.jpg");
 	font-size: 36px;
 	color: firebrick;
-
+	text-align: center;
 }
 p1 {
 font-family: Comic Sans;
 }
-
+#run {
+display: none;	
+}
+#fight {
+display: none;	
+}
