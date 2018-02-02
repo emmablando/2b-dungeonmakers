@@ -6,9 +6,17 @@ window.onload = function() {
 	document.getElementById("startBtn").addEventListener("click", function() {
 		start_game();
 	});
+	document.getElementById("run").addEventListener("click", function() {
+		run_away();
+	});
 
 }
-
+function run_away() {
+			// hide deer button
+			document.getElementById("deer").style.display = "none";
+			//grow storyline
+			document.getElementById("story").innerHTML = "<p>Suddenly, there is a roar, you mutter swear words under your breath.</p><p>It's a dragon heading right towards the village!</p>";
+}
 function start_game() {
 	// hide the start button
 	document.getElementById("startBtn").style.display = "none";
