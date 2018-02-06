@@ -18,7 +18,8 @@ window.onload = function() {
 function fighty_stuff() {
 			document.getElementById("run").style.display = "none";
 			//storyline
-			document.getElementById("story").innerHTML = "<p>Suddenly, there is a roar, you mutter swear words under your breath.</p><p>It's a dragon heading right towards the village! Will run or hide!</p>";
+			document.getElementById("story").innerHTML = "<p>You chose to fight the deer</p>";
+}
 function run_away() {
 			// hide fight button
 			document.getElementById("fight").style.display = "none";
@@ -27,7 +28,7 @@ function run_away() {
 			// show hide button
 			document.getElementById("hide").style.display = "inline";
 			//grow storyline
-			document.getElementById("story").innerHTML = "<p>Suddenly, there is a roar, you mutter swear words under your breath.</p><p>It's a dragon heading right towards the village! Will run or hide!</p>";
+			document.getElementById("story").innerHTML = "<p>you chose to fight the deer</p>";
 }
 function start_game() {
 	// hide the start button
