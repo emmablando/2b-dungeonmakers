@@ -9,8 +9,16 @@ window.onload = function() {
 	document.getElementById("run").addEventListener("click", function() {
 		run_away();
 	});
+	document.getElementById("fight").addEventListener("click", function() {
+		fighty_stuff();
+	});
+
 
 }
+function fighty_stuff() {
+			document.getElementById("run").style.display = "none";
+			//storyline
+			document.getElementById("story").innerHTML = "<p>Suddenly, there is a roar, you mutter swear words under your breath.</p><p>It's a dragon heading right towards the village! Will run or hide!</p>";
 function run_away() {
 			// hide fight button
 			document.getElementById("fight").style.display = "none";
