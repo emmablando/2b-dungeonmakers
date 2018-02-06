@@ -16,8 +16,10 @@ function run_away() {
 			document.getElementById("fight").style.display = "none";
 			// hide deer 
 			document.getElementById("deer").style.display = "none";
+			// show hide button
+			document.getElementById("hide").style.display = "inline";
 			//grow storyline
-			document.getElementById("story").innerHTML = "<p>Suddenly, there is a roar, you mutter swear words under your breath.</p><p>It's a dragon heading right towards the village! Once again, you have a choice to fight or run!</p>";
+			document.getElementById("story").innerHTML = "<p>Suddenly, there is a roar, you mutter swear words under your breath.</p><p>It's a dragon heading right towards the village! Will run or hide!</p>";
 }
 function start_game() {
 	// hide the start button
