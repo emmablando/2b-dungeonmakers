@@ -10,15 +10,16 @@ window.onload = function() {
 		run_away();
 	});
 	document.getElementById("fight").addEventListener("click", function() {
-		fighty_stuff();
+		fight_deer();
 	});
 
 
-}
-function fighty_stuff() {
-			document.getElementById("run").style.display = "none";
-			//storyline
-			document.getElementById("story").innerHTML = "<p>You chose to fight the deer</p>";
+};
+function fight_deer() {
+			// show hide button
+			document.getElementById("shield").style.display = "inline";
+			//grow storyline
+			document.getElementById("story").innerHTML = "you chose to fight a deer";
 }
 function run_away() {
 			// hide fight button
@@ -28,7 +29,8 @@ function run_away() {
 			// show hide button
 			document.getElementById("hide").style.display = "inline";
 			//grow storyline
-			document.getElementById("story").innerHTML = "<p>you chose to fight the deer</p>";
+			alert("roar");
+			document.getElementById("story").innerHTML = "<p> you mutter swear words under your breath, its a dragon and its heading straight for your home!</p>";
 }
 function start_game() {
 	// hide the start button
