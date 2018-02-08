@@ -3,6 +3,7 @@
 
 
 window.onload = function() {
+	var x = 3
 	document.getElementById("startBtn").addEventListener("click", function() {
 		start_game();
 	});
@@ -19,12 +20,28 @@ function fight_deer() {
 			// show hide button
 			document.getElementById("shield").style.display = "inline";
 		    document.getElementById("run").style.display = "none";
-
-
 			//grow storyline
-			
 			document.getElementById("story").innerHTML = "you chose to fight a deer";
+			//fighting deer
+				document.getElementById("fight").addEventListener("click", function() {
+		neg_health();
+	});
 }
+function neg_health() {
+			// - health bar
+			var x = x- 1
+			// var checker
+			for ( x = 0 ; x < 1 ; x++)  {
+				document.getElementById("deer").style.display = "none";
+				document.getElementById("story").innerHTML = "you beat the deer nice work<p>lets go home</p>";
+				document.getElementById("fight").style.display = "none";
+				document.getElementById("shield").style.display = "none";
+				document.getElementById("run").style.display = "inline";
+			}
+			
+}
+	
+			
 function run_away() {
 			// hide fight button
 			document.getElementById("fight").style.display = "none";
@@ -34,7 +51,7 @@ function run_away() {
 			document.getElementById("hide").style.display = "inline";
 			//grow storyline
 			alert("Roar");
-			document.getElementById("story").innerHTML = "<p> you mutter swear words under your breath, its a dragon and its heading straight for your home! Run, fight or hide?</p>";
+			document.getElementById("story").innerHTML = "<p> you mutter swear words under your breath, its a dragon and its heading straight for your home!</p>";
 }
 function start_game() {
 	// hide the start button
