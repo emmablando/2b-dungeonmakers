@@ -34,7 +34,7 @@ function run_away() {
 			document.getElementById("hide").style.display = "inline";
 			//grow storyline
 			alert("Roar");
-			document.getElementById("story").innerHTML = "<p> you mutter swear words under your breath, its a dragon and its heading straight for your home!</p>";
+			document.getElementById("story").innerHTML = "<p> you mutter swear words under your breath, its a dragon and its heading straight for your home! Run, fight or hide?</p>";
 }
 function start_game() {
 	// hide the start button
