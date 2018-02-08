@@ -1,15 +1,17 @@
 @charset "UTF-8";
 /* CSS Document */
-
+/*made background image, changed font size and color, aligned text*/
 body {
 	background-image: url("images/forests.jpg");
 	font-size: 36px;
 	color: firebrick;
 	text-align: center;
 }
+/*changed font*/
 p1 {
 font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
 }
+/*hid buttons that were shown in javascript when they were supposed to*/
 #run {
 display: none;	
 }
