@@ -1,9 +1,9 @@
 
 // JavaScript Document
-
+var x = 3;
 
 window.onload = function() {
-	var x = 3
+	
 	document.getElementById("startBtn").addEventListener("click", function() {
 		start_game();
 	});
@@ -18,8 +18,10 @@ window.onload = function() {
 };
 function fight_deer() {
 			// show hide button
+			document.getElementById("health").style.display = "inline";
 			document.getElementById("shield").style.display = "inline";
 		    document.getElementById("run").style.display = "none";
+			document.getElementById("deer").style.display = "inline";
 			//grow storyline
 			document.getElementById("story").innerHTML = "you chose to fight a deer";
 			//fighting deer
@@ -29,14 +31,15 @@ function fight_deer() {
 }
 function neg_health() {
 			// - health bar
-			var x = x- 1
+			
 			// var checker
-			for ( x = 0 ; x < 1 ; x++)  {
+			for ( x = x-1 ; x < 0; x++)  {
 				document.getElementById("deer").style.display = "none";
 				document.getElementById("story").innerHTML = "you beat the deer nice work<p>lets go home</p>";
 				document.getElementById("fight").style.display = "none";
 				document.getElementById("shield").style.display = "none";
 				document.getElementById("run").style.display = "inline";
+				document.getElementById("health").style.display = "none";
 			}
 			
 }
