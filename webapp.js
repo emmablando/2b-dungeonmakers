@@ -18,7 +18,11 @@ window.onload = function() {
 function fight_deer() {
 			// show hide button
 			document.getElementById("shield").style.display = "inline";
+		    document.getElementById("run").style.display = "none";
+
+
 			//grow storyline
+			
 			document.getElementById("story").innerHTML = "you chose to fight a deer";
 }
 function run_away() {
@@ -29,7 +33,7 @@ function run_away() {
 			// show hide button
 			document.getElementById("hide").style.display = "inline";
 			//grow storyline
-			alert("roar");
+			alert("Roar");
 			document.getElementById("story").innerHTML = "<p> you mutter swear words under your breath, its a dragon and its heading straight for your home!</p>";
 }
 function start_game() {
