@@ -30,7 +30,7 @@ function fight_deer() {
 	});
 }
 function neg_health() {
-			// - health bar
+			document.getElementById("health_bar").value = x - 3 ;
 		
 			// var checker
 			for ( x= x-1 ; x< 0; x++)  {
