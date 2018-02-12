@@ -11,22 +11,31 @@ body {
 p1 {
 font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
 }
-/*hid buttons that were shown in javascript when they were supposed to*/
+/*hid run button*/
 #run {
 display: none;	
 }
+/*hid fight button*/
 #fight {
 display: none;	
 }
+/*hid deer image*/
 #deer {
 display: none;	
 }
+/*hid hide image*/
 #hide {
 display: none;	
 }
+/*hid shield button*/
 #shield {
 	display: none;
 }
+/*hid health bar*/
 #health_bar {
+display: none;	
+}
+/*hid ogre miniboss*/
+#ogre {
 display: none;	
 }
