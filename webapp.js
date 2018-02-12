@@ -30,20 +30,31 @@ function fight_deer() {
 	});
 }
 function neg_health() {
+			// deer health bar
 			document.getElementById("health_bar").value = x- 1 ;
 		
 			// var checker
 			for ( x= x-1 ; x< 0; x++)  {
+				//hiding and showin button
 				document.getElementById("deer").style.display = "none";
 				document.getElementById("story").innerHTML = "you beat the deer nice work<p>lets go home</p>";
 				document.getElementById("fight").style.display = "none";
 				document.getElementById("shield").style.display = "none";
 				document.getElementById("run").style.display = "inline";
-				document.getElementById("health").style.display = "none";
+				document.getElementById("health").style.display = "none"; 
+				// mini boss encounter
+					document.getElementById("run").addEventListener("click", function() {
+		encounter();
+	});
+				
 			}
 			
 }
-	
+function encounter(){
+			document.getElementById("fight").style.display = "inline";
+			document.getElementById("shield").style.display = "inline";
+			
+}
 			
 function run_away() {
 			// hide fight button
