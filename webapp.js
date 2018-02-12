@@ -18,7 +18,7 @@ window.onload = function() {
 };
 function fight_deer() {
 			// show hide button
-			document.getElementById("health").style.display = "inline";
+			document.getElementById("health_bar").style.display = "inline";
 			document.getElementById("shield").style.display = "inline";
 		    document.getElementById("run").style.display = "none";
 			document.getElementById("deer").style.display = "inline";
