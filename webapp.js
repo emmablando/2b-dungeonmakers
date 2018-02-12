@@ -40,10 +40,10 @@ function neg_health() {
 				document.getElementById("story").innerHTML = "you beat the deer nice work<p>lets go home</p>";
 				document.getElementById("fight").style.display = "none";
 				document.getElementById("shield").style.display = "none";
-				document.getElementById("run").style.display = "inline";
+				document.getElementById("run 2").style.display = "inline";
 				document.getElementById("health").style.display = "none"; 
 				// mini boss encounter
-					document.getElementById("run").addEventListener("click", function() {
+					document.getElementById("run 2").addEventListener("click", function() {
 		encounter();
 	});
 				
@@ -65,7 +65,7 @@ function run_away() {
 			document.getElementById("hide").style.display = "inline";
 			//grow storyline
 			alert("Roar!");
-			document.getElementById("story").innerHTML = "<p> you mutter swear words under your breath, its a dragon and its heading straight for your home!</p>";
+			document.getElementById("story").innerHTML = "<p> There's an eplosion right behind you, you mutter curse words under your breath, hide or run </p>";
 }
 function start_game() {
 	// hide the start button
