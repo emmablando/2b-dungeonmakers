@@ -1,6 +1,6 @@
 
 // JavaScript Document
-var x = 3;
+var x = 6;
 
 window.onload = function() {
 	
@@ -30,7 +30,7 @@ function fight_deer() {
 	});
 }
 function neg_health() {
-			document.getElementById("health_bar").value = x - 3 ;
+			document.getElementById("health_bar").value = x- 1 ;
 		
 			// var checker
 			for ( x= x-1 ; x< 0; x++)  {
@@ -53,7 +53,7 @@ function run_away() {
 			// show hide button
 			document.getElementById("hide").style.display = "inline";
 			//grow storyline
-			alert("Roar");
+			alert("Roar!");
 			document.getElementById("story").innerHTML = "<p> you mutter swear words under your breath, its a dragon and its heading straight for your home!</p>";
 }
 function start_game() {
