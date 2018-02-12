@@ -39,3 +39,7 @@ display: none;
 #ogre {
 display: none;	
 }
+/*hid second run button*/
+#run2 {
+	display: none;
+}
