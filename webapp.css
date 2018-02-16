@@ -9,7 +9,7 @@ body {
 }
 /*changed font*/
 p1 {
-font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace
 }
 /*hid run button*/
 #run {
