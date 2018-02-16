@@ -16,7 +16,7 @@ window.onload = function() {
 				document.getElementById("fight").addEventListener("click", function() {
 		neg_health();
 	});
-				document.getElementById("Run 2").addEventListener("click", function() {
+				document.getElementById("run2").addEventListener("click", function() {
 		encounter();
 	});
 
@@ -32,25 +32,26 @@ function fight_deer() {
 			//fighting deer
 }
 function neg_health() {
+			x--;
 			// deer health bar
-			document.getElementById("health_bar").value = x- 1 ;
+			document.getElementById("health_bar").value = x;
 		
-			// var checker
-			for ( x= x-1 ; x< 0; x++)  {
-				//hiding and showin button
-				document.getElementById("deer").style.display = "none";
+			//hiding and showin button
+			if( x == 0 ) {
+				document.getElementById("deer").style.display = "none";				
 				document.getElementById("story").innerHTML = "you beat the deer nice work<p>lets go home</p>";
 				document.getElementById("fight").style.display = "none";
 				document.getElementById("shield").style.display = "none";
-				document.getElementById("Run 2").style.display = "inline";
+				document.getElementById("run2").style.display = "inline";
 				document.getElementById("health").style.display = "none"; 
-				// mini boss encounter
 			}
+			// mini boss encounter
 
 }
 function encounter(){
 			document.getElementById("fight").style.display = "inline";
 			document.getElementById("shield").style.display = "inline";
+			document.getElementById("run2").style.display = "none";
 			
 }
 			
