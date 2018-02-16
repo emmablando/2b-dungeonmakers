@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Web App</title>
+<!--Stylesheet-->
+<link rel="stylesheet" title="Disabled for Preview-in-Browser: webapp.css" type="text/css">
+<style type="text/css">
+
+/* CSS Document */
+/*made background image, changed font size and color, aligned text*/
+body {
+	background-image: url("images/forests.jpg");
+	font-size: 36px;
+	color: blue;
+	text-align: center;
+}
+/*changed font*/
+p1 {
+font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+}
+/*hid run button*/
+#run {
+display: none;	
+}
+/*hid fight button*/
+#fight {
+display: none;	
+}
+/*hid deer image*/
+#deer {
+display: none;	
+}
+/*hid hide image*/
+#hide {
+display: none;	
+}
+/*hid shield button*/
+#shield {
+	display: none;
+}
+/*hid health bar*/
+#health_bar {
+display: none;	
+}
+/*hid ogre miniboss*/
+#ogre {
+display: none;	
+}
+/*hid second run button*/
+#run2 {
+	display: none;
+}
+
+</style>
+<!--JavaScript-->
+<script type="text/javascript" src="webapp.js"></script>
+<!--Jquery-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+</head>
+
+<body>                    
+<!-- story start scene --> 
+<div id="story">
+	<p1>Welcome to "Dungeons and Dragons".
+	This is a text adventure game.</p1>
+</div>
+<img src="images/start 2.png" alt="CLICK" id="startBtn"><!-- images for deer --> 
+<p><img src="images/deer.jpg" alt="click" id="deer"></p>
+<!-- images for health bar --> 
+<p><progress id="health_bar" value="6" max="6"></progress></p>
+<!-- images for fight run hide and sheild --> 
+<p><img src="images/Claw_marks.png" alt="CLICK" id="fight"><img src="images/run.png" alt="CLICK" id="run"><img src="images/hiding.jpg" alt="Click" id="hide"><img src="images/shield.png" alt="Click" id="shield"><img src="images/Run 2.png" alt="Click" id="run2"></p>
+<p>&nbsp;</p>
+
+<!-- images for ogre -->
+<p><img src="images/ogre.jpg" alt="CLICK" id="ogre"></p>
+
+
+</body>
+</html>
