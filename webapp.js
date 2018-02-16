@@ -38,7 +38,6 @@ function neg_health() {
 			// var checker
 			for ( x= x-1 ; x< 0; x++)  {
 				//hiding and showin button
-				document.getElementById("run").style.display = "none";
 				document.getElementById("deer").style.display = "none";
 				document.getElementById("story").innerHTML = "you beat the deer nice work<p>lets go home</p>";
 				document.getElementById("fight").style.display = "none";
