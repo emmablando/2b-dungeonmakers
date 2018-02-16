@@ -50,7 +50,7 @@ function neg_health() {
 }
 function encounter(){
 			document.getElementById("ogre").style.display = "inline";
-			alert("<img src="images/kaboom.jpg" alt="CLICK" id="ogre">");
+			alert("kaboom");
 			document.getElementById("fight").style.display = "inline";
 			document.getElementById("shield").style.display = "inline";
 			document.getElementById("run2").style.display = "none";
