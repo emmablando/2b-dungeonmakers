@@ -43,3 +43,7 @@ display: none;
 #run2 {
 	display: none;
 }
+/*Changed height of start btn*/
+#startBtn {
+	height: 100px;
+}
