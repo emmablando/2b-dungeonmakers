@@ -19,6 +19,9 @@ window.onload = function() {
 				document.getElementById("run2").addEventListener("click", function() {
 		encounter();
 	});
+				document.getElementById("eat").addEventListener("click", function() { 
+				heal_up();
+	});
 
 };
 function fight_deer() {
@@ -56,13 +59,11 @@ function neg_health() {
 
 }
 function encounter(){
-			document.getElementById("ogre").style.display = "inline";
-			alert("kaboom");
-			document.getElementById("fight2").style.display = "inline";
-			document.getElementById("shield").style.display = "inline";
-			document.getElementById("run2").style.display = "none";
-			document.getElementById("story").innerHTML = "Yikes!<p>It's an ogre</p>";
-			
+		document.getElementById("story").innerHTML = "<p>you are low on health</p>eat the deer meat to regain health";	
+		document.getElementById("eat").style.display = "inline"; 
+}
+function heal_up(){
+ var y = y + 7;
 }
 			
 function run_away() {
