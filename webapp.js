@@ -78,7 +78,7 @@ function run_away() {
 			document.getElementById("hide").style.display = "inline";
 			//grow storyline
 			alert("Roar!");
-			document.getElementById("story").innerHTML = "<p> There's an explosion right behind you, it's your village, you mutter curse words under your breath</p><p> will you hide or run </p>";
+			document.getElementById("story").innerHTML = "<p> There's an explosion right behind you, it's your village, you mutter under your breath</p><p> will you hide or run </p>";
 }
 function start_game() {
 	// hide the start button
