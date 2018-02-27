@@ -51,7 +51,7 @@ function neg_health() {
 function encounter(){
 			document.getElementById("ogre").style.display = "inline";
 			alert("kaboom");
-			document.getElementById("fight").style.display = "inline";
+			document.getElementById("fight2").style.display = "inline";
 			document.getElementById("shield").style.display = "inline";
 			document.getElementById("run2").style.display = "none";
 			document.getElementById("story").innerHTML = "Yikes!<p>It's an ogre</p>";
