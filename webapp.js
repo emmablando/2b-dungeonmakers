@@ -1,7 +1,7 @@
 
 // JavaScript Document
 var x = 6;
-
+var y =7;
 window.onload = function() {
 	
 	document.getElementById("startBtn").addEventListener("click", function() {
@@ -32,6 +32,13 @@ function fight_deer() {
 			//fighting deer
 }
 function neg_health() {
+			y--;
+			// player health bar
+			document.getElementById("player_bar").value = y;
+			
+			if( x == 0 ) {			
+				document.getElementById("story").innerHTML = "<p>boo hoo you died</p>";
+			}
 			x--;
 			// deer health bar
 			document.getElementById("health_bar").value = x;
