@@ -34,7 +34,11 @@ function fight_deer() {
 			document.getElementById("story").innerHTML = "you chose to fight a deer";
 			//fighting deer
 }
+function heal_up(){
+ var y = y + 7;
+}
 function neg_health() {
+			document.getElementById("player_bar").style.display = "inline";
 			y--;
 			// player health bar
 			document.getElementById("player_bar").value = y;
@@ -55,16 +59,15 @@ function neg_health() {
 				document.getElementById("run2").style.display = "inline";
 				document.getElementById("health").style.display = "none"; 
 			}
-			// mini boss encounter
+			
 
 }
 function encounter(){
 		document.getElementById("story").innerHTML = "<p>you are low on health</p>eat the deer meat to regain health";	
 		document.getElementById("eat").style.display = "inline"; 
+		document.getElementById("run2").style.display = "none"; 
 }
-function heal_up(){
- var y = y + 7;
-}
+
 			
 function run_away() {
 			// hide fight button
