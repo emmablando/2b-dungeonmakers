@@ -43,14 +43,8 @@ display: none;
 #run2 {
 	display: none;
 }
-/*hid second fight button*/
-#fight2 {
-	display: none;	
-}
+
 /*Changed height of start btn*/
 #startBtn {
 	height: 100px;
 }
-#Kaboom {
-		display: none;
-		}
