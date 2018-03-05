@@ -9,23 +9,23 @@ body {
 }
 /*changed font*/
 p1 {
-font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace
 }
 /*hid run button*/
 #run {
-display: none;	
+	display: none;	
 }
 /*hid fight button*/
 #fight {
-display: none;	
+	display: none;	
 }
 /*hid deer image*/
 #deer {
-display: none;	
+	display: none;	
 }
 /*hid hide image*/
 #hide {
-display: none;	
+	display: none;	
 }
 /*hid shield button*/
 #shield {
@@ -33,15 +33,15 @@ display: none;
 }
 /*hid health bar*/
 #health_bar {
-display: none;	
+	display: none;	
 }
 /*hid ogre miniboss*/
 #ogre {
-display: none;	
+	display: none;	
 }
 /*hid second run button*/
 #run2 {
-	display: none;
+		display: none;
 }
 /*hid player bar*/
 #player_bar {
@@ -53,10 +53,10 @@ display: none;
 }
 /*hid fight 2*/
 #fight2 {
-display: none;	
+	display: none;	
 }
 /*hid eat*/
 #eat {
-display: none;
+	display: none;
 }
 	
